@@ -1,81 +1,91 @@
 @font-face {
 	font-family: "ostrich";
 	src: url("fonts/OstrichSans-Heavy.woff2") format("woff2");
-}h1 {
+}
+
+h1 {
 	font-family: "ostrich";
 	font-size: 45px;
-	color: lightpink;
+	color: white;
 	margin: auto;
 	text-align: center;
 }
 
 h2 {
 	font-family: "ostrich";
-	font-size: 20px;
+	font-size: 28px;
 	justify-content: center;
-	color: lightpink;
+	color: black;
 	margin: auto;
 	text-align: center;
 }
 
 p {
 	font-family: "ostrich";
-	font-size: 14px;
-	color: lightpink;
+	font-size: 20px;
+	color: white;
 	margin: auto;
 	text-align: center;
 }
 
+a {
+	color: black;
+}
+
 .red {
-	width: 800px;
-	height: 1700px;
+	width: 680px;
+	height: 1150px;
 	margin: auto;
 }
 
 .pink {
-	width: 160px;
-	height: 1700px;
+	width: 130px;
+	height: 1150px;
 	margin: auto;
 }
 
 .yellow {
 	width: 800px;
-	height: 1700px;
+	height: 1150px;
 	margin: auto;
 }
 
 .green {
-	width: 50px;
-	height: 1700px;
+	width: 70px;
+	height: 1150px;
 	margin: auto;
 }
 
 .red {
-	background-color: darkorange;
+	background-color: black;
 	margin: auto;
 	align-content: center;
 }
 
 .pink {
-	background-color: darkred;
+	background-color: white;
 	margin: auto;
 	align-content: center;
 }
 
 .yellow {
-	background-color: darkblue;
+	background-color: black;
+	margin: auto;
 }
 
 .green {
-	background-color: darkorange;
+	background-color: white;
+	margin: auto;
 }
 
 .space-around {
-	justify-content: space-around;
+	justify-content: ;
+	margin: auto;
 }
 
 .flex-vertical {
 	display: flex;
 	height: 2000px;
 	flex-direction: row;
+		margin: auto;
 }
