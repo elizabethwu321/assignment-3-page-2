@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "ostrich";
+	src: url("fonts/OstrichSans-Heavy.woff2") format("woff2");
+}h1 {
+	font-family: "ostrich";
+	font-size: 45px;
+	color: lightpink;
+	margin: auto;
+	text-align: center;
+}
+
+h2 {
+	font-family: "ostrich";
+	font-size: 20px;
+	justify-content: center;
+	color: lightpink;
+	margin: auto;
+	text-align: center;
+}
+
+p {
+	font-family: "ostrich";
+	font-size: 14px;
+	color: lightpink;
+	margin: auto;
+	text-align: center;
+}
+
+.red {
+	width: 800px;
+	height: 1700px;
+	margin: auto;
+}
+
+.pink {
+	width: 160px;
+	height: 1700px;
+	margin: auto;
+}
+
+.yellow {
+	width: 800px;
+	height: 1700px;
+	margin: auto;
+}
+
+.green {
+	width: 50px;
+	height: 1700px;
+	margin: auto;
+}
+
+.red {
+	background-color: darkorange;
+	margin: auto;
+	align-content: center;
+}
+
+.pink {
+	background-color: darkred;
+	margin: auto;
+	align-content: center;
+}
+
+.yellow {
+	background-color: darkblue;
+}
+
+.green {
+	background-color: darkorange;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+.flex-vertical {
+	display: flex;
+	height: 2000px;
+	flex-direction: row;
+}
